@@ -4,7 +4,7 @@ import shutil
 import zipfile
 
 # Define the path to the zip file
-path_to_zip_file = "modul-medikation-ig-1.0-de@current.zip"
+path_to_zip_file = "medizininformatikinitiative-modulstudie-implementationguide-v1.0.0-ballot.zip"
 
 # Define the directory containing the HTML files
 #directory = "modul-medikation-ig-1.0-de@current"
@@ -30,7 +30,9 @@ replacements = {
     'ImplementationGuide-1.x-': '',
     'ImplementationGuide-1.x/': '',
     'ImplementationGuide-2.x-': '',
-    'ImplementationGuide-2.x/': ''
+    'ImplementationGuide-2.x/': '',
+    '-1.x': '',
+    '-2.x': ''
     }
 
 # Loop through each file in the directory
